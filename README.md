@@ -4,24 +4,24 @@ A simple Next.js AI chat application for internal company manuals.
 
 ## 🛠️ Tech Stack
 
-- ** Framework:** Next.js (App Router)
-- ** Language:** TypeScript
-- ** Package Manager:** npm
-- ** Runtime:** Node.js
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Package Manager:** npm
+- **Runtime:** Node.js
 
 ## 📦 Libraries (Application Logic)
 
-- ** AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/react`, `@ai-sdk/openai`)
+- **AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/react`, `@ai-sdk/openai`)
 
 ## 🎨 UI & Design
 
-- ** Styling:** Tailwind CSS
-- ** Markdown Rendering:** react-markdown, remark-gfm
+- **Styling:** Tailwind CSS
+- **Markdown Rendering:** react-markdown, remark-gfm
 
 ## ⚙️ Tooling & Quality
 
-- ** Linting:** ESLint (Next.js default)
-- ** Formatting:** Prettier
+- **Linting:** ESLint (Next.js default)
+- **Formatting:** Prettier
 
 ## 📋 Commit Message Format
 
