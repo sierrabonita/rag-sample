@@ -1,12 +1,14 @@
 import { convertToModelMessages, streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+// import { openai } from '@ai-sdk/openai';
+import { google } from '@ai-sdk/google';
 import { companyManual } from '../../../data/manual';
 
 export const POST = async (req: Request) => {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4o'),
+    // model: openai('gpt-4o'),
+    model: google('gemini-2.5-flash'),
     system: `あなたは優秀な社内アシスタントです。以下のルールとマニュアルに従って回答してください。
             <system_rules>
             - マニュアルにない質問には『規程にありません』と答えること。
