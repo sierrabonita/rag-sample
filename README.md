@@ -2,6 +2,8 @@
 
 A simple Next.js AI chat application for internal company manuals.
 
+🌍 **Live Demo:** https://rag-sample.vercel.app/
+
 ## 🛠️ Tech Stack
 
 - **Framework:** Next.js (App Router)
@@ -11,7 +13,8 @@ A simple Next.js AI chat application for internal company manuals.
 
 ## 📦 Libraries (Application Logic)
 
-- **AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/react`, `@ai-sdk/openai`)
+<!-- - **AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/react`, `@ai-sdk/openai`) -->
+- **AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/react`, `@ai-sdk/google`)
 
 ## 🎨 UI & Design
 
