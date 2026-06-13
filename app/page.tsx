@@ -78,6 +78,20 @@ const Page = () => {
               </div>
             </div>
           ))}
+          
+          {/* ローディング表示 (AI思考中) */}
+          {messages.length > 0 && messages[messages.length - 1].role === 'user' && (
+            <div className="flex justify-start">
+              <div className="max-w-[85%] p-4 rounded-2xl bg-gray-100 text-gray-800 rounded-bl-sm">
+                <span className="block text-xs font-semibold mb-2 opacity-80">AIアシスタント</span>
+                <div className="flex space-x-1.5 items-center h-4">
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-pulse"></div>
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-pulse [animation-delay:0.2s]"></div>
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-pulse [animation-delay:0.4s]"></div>
+                </div>
+              </div>
+            </div>
+          )}
           <div ref={messagesEndRef} />
         </div>
 
